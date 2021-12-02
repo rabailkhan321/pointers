@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+
+int main()
+{
+    int i=6, c;
+    printf("the value of i is %d",i);
+   func(i);
+    printf("the value of i is %d",i );
+}
+func(int i)
+{
+    i=10*i;
+    
+    
+}
