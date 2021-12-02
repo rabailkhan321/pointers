@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+
+int main()
+{
+    int i=6,c;
+    printf("the original value of the variable is %d\n",i);
+    c=func(&i);
+    printf("the value of the variable after changing is %d\n ", i);
+}
+func(int *a)
+{
+    *a=60;
+    
+
+   
+}
