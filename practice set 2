@@ -1,0 +1,14 @@
+#include<stdio.h>
+func(int i);
+int main()
+{
+    int i=4;
+    printf("the value of i is %u",&i);
+    
+    func(i);
+    
+}
+func(int i)
+{
+    printf("the value of i is %u",&i);
+}
