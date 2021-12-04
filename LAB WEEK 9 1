@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+
+    int val1=0, val2=0, val3=0;
+    int *aptr, *bptr, *cptr;
+    aptr=&val1;
+    bptr=&val2;
+    *aptr=10;
+    *bptr=110;
+    val3=*aptr-*bptr;
+    cptr=&val3;
+    val3=val3+10;
+ printf("%d\n", val3);
+ bptr=&val3;
+ printf("%d\n",*bptr);
+ aptr=*bptr;
+ printf("%d",aptr);
+
+}
